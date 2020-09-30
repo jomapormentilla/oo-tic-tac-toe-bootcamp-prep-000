@@ -1,5 +1,5 @@
 class TicTacToe
-  def instantiate(board=new Array(9, " "))
+  def instantiate(board=Array.new(9, " "))
     @board = board
   end
 end
