@@ -99,11 +99,7 @@ class TicTacToe
   end
   
   def over?(board)
-  <<<<<<< HEAD
     if(draw?(board) == true || (won?(board)))
-  =======
-    if(draw?(board) == true || (won?(board))
-  >>>>>>> 250a1e0cfae120cf67e93726d3c1afb2499c191e
       return true
     else
       false
